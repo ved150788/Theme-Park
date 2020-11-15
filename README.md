@@ -23,9 +23,22 @@ git checkout -b logo main
 
 ### Rebasing
 * Once a PR is merged to the **main** branch, all other **feature** branches will need to be rebased to the **main** branch to update with the latest code.  
-E.g. If you are working on the **logo** feature branch, and another developer merged code to the **main** branch, to rebase your **logo** branch to **main** for the new code, in your terminal ensure that you are on your **logo** branch and execute execute:
+E.g. If you are working on the **logo** feature branch, and another developer merged code to the **main** branch, to rebase your **logo** branch to **main** for the new code, in your terminal:
 
 ```
+# Check what branch you are currently on, locally:
+git branch
+
+# Checkout the main branch, locally:
+git checkout main
+
+# Obtain the latest code from the upstream main branch to your local main branch:
+git pull
+
+# Return to your feature branch, locally, in this case the logo branch:
+git checkout logo
+
+# Rebase your local logo branch to your local main branch:
 git rebase main
 ```
 
