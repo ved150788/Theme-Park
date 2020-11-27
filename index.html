@@ -6,16 +6,53 @@
   <title>Theme park website</title>
   <meta charset="utf-8">
   <meta name="description" content="This is a website for a theme park called Frozen Land.">
-  <meta name="author" content="Preda Anu">
+  <meta name="author" content="Preda">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="refresh" content="600">
   <meta name="keywords" content="Frozen Land theme park">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
 </head>
 
 <body>
   <header>
-    <h1>Welcome to the theme park - home</h1>
+    <nav>
+      <a id="logo" href="index.html">
+        <object
+          data="img/frozen_logo_3.jpg"
+          width="150"
+          height="70"
+        >
+        </object>
+      </a>
+      <ol id="nav-links">
+        <li>
+          <a href="details.html">Explore</a>
+        </li>
+        <li>
+          <a href="supporting_features.html">Book Now</a>
+        </li>
+      </ol>
+      <ol id="search-links">
+        <li>
+          <input placeholder="Search"/>
+        </li>
+        <li>
+          <details>
+            <summary>Opening hours</summary>
+            <ul>
+              <li>Mon 9:30am - 6:00pm</li>
+              <li>Tue 9:30am - 6:00pm</li>
+              <li>Wed 9:30am - 6:00pm</li>
+              <li>Thu 9:30am - 6:00pm</li>
+              <li>Fri 9:30am - 6:00pm</li>
+              <li>Sat 8:00am - 10:00pm</li>
+              <li>Sun 8:00am - 10:00pm</li>
+            </ul>
+          </details>
+        </li>
+      </ol>
+    </nav>
   </header>
 </body>
 </html>
