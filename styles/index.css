@@ -178,6 +178,8 @@ main {
 .main-article-title {
   grid-area: main-article-title;
   justify-content: center;
+  font-size: 50px;
+  font-family: Luminari, fantasy;
 }
 
 .main-article-image {
@@ -186,6 +188,9 @@ main {
 
 .main-article-text {
   grid-area: main-article-text;
+  /*padding: 20px;*/
+  font-size: 20px;
+  font-family: Apple Chancery, cursive;
 }
 
 .park-info-container {
@@ -195,26 +200,21 @@ main {
     'main-article-image main-article-text'
     'main-article-image main-article-text'
     'main-article-image main-article-text'
-    'main-article-image main-article-text'
-    'main-article-image main-article-text'
-    'main-article-image main-article-text'
-    'main-article-image main-article-text'
-    'main-article-image main-article-text'
-    'main-article-image main-article-text'
-    'main-article-image main-article-text'
     'main-article-image main-article-text';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-  width: 90%;
+  grid-gap: 50px;
+  /*background-color: #6495ED;*/
+  background-color: rgba(100,149,237, 0.4);
+  padding: 40px;
+  /*width: 90%;*/
   height: 500px;
   margin: 4%;
   text-align: center;
-  /*border: 1px dashed orange;*/
+  border: 2px solid #C0C0C0;
+  border-radius: 5px;
 }
 
 .park-info-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  /*background-color: rgba(255, 255, 255, 0.8);*/
 }
 
 .supporting-info-section {
@@ -259,4 +259,10 @@ main {
 
 .supporting-info-article > div {
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+#main-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
 }
