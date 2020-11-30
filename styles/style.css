@@ -29,7 +29,7 @@ body {
 
 .shop {
   left: 390px;
-  top: 570px;
+  top: 580px;
   z-index: 2;
 }
 
@@ -47,7 +47,7 @@ body {
 
 
 .restaurant {
-  left: 750px;
+  left: 760px;
   top: 270px;
   z-index: 2;
 }
