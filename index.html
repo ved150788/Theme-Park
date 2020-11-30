@@ -6,16 +6,178 @@
   <title>Theme park website</title>
   <meta charset="utf-8">
   <meta name="description" content="This is a website for a theme park called Frozen Land.">
-  <meta name="author" content="Preda Anu">
+  <meta name="author" content="Preda">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="refresh" content="600">
   <meta name="keywords" content="Frozen Land theme park">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
 </head>
 
 <body>
   <header>
-    <h1>Welcome to the theme park - home</h1>
+    <nav>
+      <a id="logo" href="index.html">
+        <object
+          data="img/frozen_logo_3.jpg"
+          width="150"
+          height="70"
+        >
+        </object>
+      </a>
+      <ol id="nav-links">
+        <li>
+          <a href="details.html">Explore</a>
+        </li>
+        <li>
+          <a href="supporting_features.html">Book Now</a>
+        </li>
+      </ol>
+      <ol id="search-links">
+        <li>
+          <input placeholder="Search"/>
+        </li>
+        <li>
+          <details>
+            <summary>Opening hours</summary>
+            <ul>
+              <li>Mon 9:30am - 6:00pm</li>
+              <li>Tue 9:30am - 6:00pm</li>
+              <li>Wed 9:30am - 6:00pm</li>
+              <li>Thu 9:30am - 6:00pm</li>
+              <li>Fri 9:30am - 6:00pm</li>
+              <li>Sat 8:00am - 10:00pm</li>
+              <li>Sun 8:00am - 10:00pm</li>
+            </ul>
+          </details>
+        </li>
+      </ol>
+    </nav>
   </header>
+
+  <main>
+    <section class="slideshow">
+      <div class="slides">
+        <object
+          id="slide-1"
+          data="img/frozen_concept.jpg"
+        />
+        </object>
+        <object
+          id="slide-2"
+          data="img/frozen_play.jpg"
+        >
+        </object>
+        <object
+          id="slide-3"
+          data="img/frozen_hk.png"
+        >
+        </object>
+        <object
+          id="slide-4"
+          data="img/frozen_play_2.webp"
+        >
+        </object>
+        <object
+          id="slide-5"
+          data="img/frozen_float.webp"
+        >
+        </object>
+      </div>
+      <!-- <div>
+        <a href="#slide-1">1</a>
+        <a href="#slide-2">2</a>
+        <a href="#slide-3">3</a>
+        <a href="#slide-4">4</a>
+        <a href="#slide-5">5</a>
+      </div> -->
+    </section>
+
+    <section>
+      <article class="park-info-container">
+        <div class="main-article-title">
+          ~ Frozenland ~
+        </div>
+        <div class="main-article-image">
+          <img id="main-image" src="img/frozen_ice.jpeg"/>
+        </div>
+        <div class="main-article-text">
+          <p>
+            Welcome to Frozenland where you will be whisked away to a place of enchantment and magic!
+          </p>
+          <p>
+            Enlist with the delightful Anna to help save her sister. Join the handsome Hans. Get up to mischief with Olaf as he hops around town with his naughtiness. Hitch a ride with the loyal reindeer, Sven.
+          </p>
+          <p>
+            Be careful not to get in the way of Elsa's spells or be forever frozen in the icy kingdom!
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="supporting-info-section">
+      <article class="supporting-info-article">
+        <div class="supporting-article-title">
+          ~ Ticket sale offer ~
+        </div>
+        <div class="supporting-article-image">
+          <img class="supporting-image" src="img/tickets_for_sale.jpg"/>
+        </div>
+        <div class="supporting-article-text">
+          <p>
+            Back to fun offer alert!
+          </p>
+          <p>
+            The first 1,000 tickets this holiday season beginning December will be 50% off normal price.
+          </p>
+          <p>
+            Kids under 8 enter free.
+          </p>
+        </div>
+      </article>
+      <article class="supporting-info-article">
+        <div class="supporting-article-title">
+          ~ Rides ~
+        </div>
+        <div class="supporting-article-image">
+          <img class="supporting-image" src="img/rides.jpg"/>
+        </div>
+        <div class="supporting-article-text">
+          <p>
+            Dare to go on the new Icicle rollercoaster? For the most adventurous guests, there are rides guaranteed to give you goosebumps!
+          </p>
+          <p>
+            For the younger visitors, you will have great fun on the carousel swings and iceberg carts. Just don't forget to wrap up warm.
+          </p>
+        </div>
+      </article>
+      <article class="supporting-info-article">
+        <div class="supporting-article-title">
+          ~ Events ~
+        </div>
+        <div class="supporting-article-image">
+          <img class="supporting-image" src="img/frozen_castle.jpg"/>
+        </div>
+        <div class="supporting-article-text">
+          <p>
+            Join a parade every third night, where your favourite characters throw a party with fireworks and colours!
+          </p>
+          <p>
+            See the special plays never seen before in one of our secret exhibition spots hidden in the frozen kingdom.
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+      <li>contact us</li>
+      <li>policy</li>
+      <li>cookies policy</li>
+      <li>press</li>
+      <li>jobs</li>
+    </ul>
+  </footer>
 </body>
 </html>
