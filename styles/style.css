@@ -16,20 +16,20 @@ body {
 }
 
 .castle {
-  left: 530px;
-  top: 330px;
+  left: 520px;
+  top: 350px;
   z-index: 2;
 }
 
 .rollercoaster {
-  left: 270px;
-  top: 330px;
+  left: 210px;
+  top: 300px;
   z-index: 2;
 }
 
 .shop {
-  left: 320px;
-  top: 550px;
+  left: 390px;
+  top: 570px;
   z-index: 2;
 }
 
@@ -52,3 +52,8 @@ body {
   z-index: 2;
 }
 
+.info {
+  left: 170px;
+  top: 470px;
+  z-index: 2;
+}
