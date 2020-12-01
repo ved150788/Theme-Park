@@ -1,8 +1,9 @@
 /*styles for details*/
 
-.body{
+body{
     margin: 0;
     padding: 0;
+    background-color: #f8fafb !important;
 }
 
 .icons {
@@ -11,43 +12,138 @@
 
 .content {
     display: flex;
-    /*position: relative;*/
     flex-flow: column wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin: 0 10%;
+    margin-top: 50px;
 }
 
-.frozenlandMap{
+.frozenland-map{
     position: relative;
+    border-radius: 20px;
+    margin: 30px 0;
 }
 
-.posts article{
+.map {
+    background-color: #e5edfb;
+    border-radius: 30px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    align-content: center;
     align-items: center;
+    padding: 80px;
+    width:1430px;
+}
+
+.map img {
+    margin-top: 40px;
+}
+
+.posts{
+    width: 1550px;
+}
+
+.map-title {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 10px;
+    margin: 0;
+    text-align: center;
+    color: #011e44;
+    text-transform: uppercase;
+}
+
+.post{
+    background-color:#e5edfb;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20px;
+    padding: 80px 30px;
+    margin: 90px 0;
+    width: 1500px;
+}
+
+.post img {
+    width: 700px;
+    padding: 40px;
+}
+
+.post p {
+    text-align: justify;
+    font-size: 23px;
+    font-family: 'Archivo', sans-serif;
+    line-height: 150%;
+}
+
+.post h3 {
+    text-align: justify;
+    font-size: 30px;
+}
+
+.post-text {
+    display: inline-block;
+    width: 600px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.post-text h3 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.icon-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.iconDescription {
+    padding: 5px 0; 
+    text-transform: uppercase;
+    color:  #011e44;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon-link {
+    text-decoration: none !important;
 }
 
 .icon{
     display: inline-block;
     position: absolute;
-    max-width: 70px;
-    background-color:rgb(120, 209, 250);
+    max-width: 110px;
+    background-color: #e5edfb;
     padding: 10px;
     border-radius: 20px;
+    -moz-box-shadow: 0px 0px 8px#7fdde050;
+    -webkit-box-shadow: 0px 0px 8px #7fdde08a;
+    box-shadow: 0px 0px 8px  8px rgba(127, 221, 224, 0.479);
+
+}
+
+.icon:hover {
+    -moz-box-shadow: 0px 0px 8px#7fdde050;
+    -webkit-box-shadow: 0px 0px 8px #7fdde08a;
+    box-shadow: 0px 0px 16px  16px #7fc9e0d8;
 }
 
 .castle {
-    left: 520px;
-    top: 350px;
+    left: 820px;
+    top: 650px;
     z-index: 2;
 }
   
 .rollercoaster {
-    left: 210px;
-    top: 300px;
+    left: 1130px;
+    top: 830px;
     z-index: 2;
 }
 
@@ -59,35 +155,26 @@
 
 .attraction1 {
     left: 690px;
-    top: 500px;
+    top: 1030px;
     z-index: 2;
 }
 
 .ballon {
-    left: 370px;
-    top: 130px;
+    left: 640px;
+    top: 330px;
     z-index: 2;
 }
 
 
 .restaurant {
-    left: 760px;
-    top: 270px;
+    left: 1100px;
+    top: 570px;
     z-index: 2;
     }
 
 .info {
-    left: 170px;
-    top: 470px;
+    left: 350px;
+    top: 790px;
     z-index: 2;
 }
 
-.post article p {
-    text-align: center;
-    padding: 100px;
-}
-
-.iconDescription{
-    text-decoration: none !important;
-    font-family: 'Montserrat', sans-serif;
-}
