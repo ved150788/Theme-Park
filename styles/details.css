@@ -1,0 +1,50 @@
+
+.frozenlandMap {
+    position: relative;
+    z-index: 1;
+  }
+  
+.icon{
+max-width: 60px;
+position: absolute;
+background-color:rgb(120, 209, 250);
+padding: 10px;
+border-radius: 20px;
+}
+
+.castle {
+left: 530px;
+top: 330px;
+z-index: 2;
+}
+
+.rollercoaster {
+left: 270px;
+top: 330px;
+z-index: 2;
+}
+
+.shop {
+left: 320px;
+top: 550px;
+z-index: 2;
+}
+
+.attraction1 {
+left: 690px;
+top: 500px;
+z-index: 2;
+}
+
+.ballon {
+left: 370px;
+top: 130px;
+z-index: 2;
+}
+
+
+.restaurant {
+left: 750px;
+top: 270px;
+z-index: 2;
+}
