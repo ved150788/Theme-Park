@@ -3,17 +3,239 @@
 <html lang="en">
 
 <head>
-  <title>Supporting features</title>
-  <meta charset="utf-8">
-  <meta name="description" content="This is a website for a theme park called Frozen Land.">
-  <meta name="author" content="Gulshan Ara">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="refresh" content="600">
-  <meta name="keywords" content="Frozen Land theme park">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Supporting features</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a website for a theme park called Frozen Land.">
+    <meta name="author" content="Gulshan Ara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Frozen Land theme park">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
+
+<!--main content of the page-->
+<main>
+
+    <!--    First row of the page which contains sale offer of tickets-->
+
+    <section class="sale_offer_section">
+
+        <!--        Each article defines a column in this row
+          Inspired by : https://www.w3schools.com/howto/howto_css_blog_layout.asp
+          -->
+
+        <article class="sale_offer_article">
+
+            <div class="sale_offer_heading">
+                <h1>~ Sale ~</h1>
+            </div>
+
+            <div class="sale_offer_image">
+                <img src="images/sale.png" alt="Sale offer on tickets">
+            </div>
+
+            <div class="sale_offer_description">
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                    to demonstrate the visual form of a document or a typeface without relying on
+                    meaningful content</p>
+            </div>
+
+            <div class="sale_offer_button">
+                <button>Buy Now</button>
+            </div>
+        </article>
+
+        <article class="sale_offer_article">
+
+            <div class="sale_offer_heading">
+                <h1>~ Sale ~</h1>
+            </div>
+
+            <div class="sale_offer_image">
+                <img src="images/sale.png" alt="Sale offer on tickets">
+            </div>
+
+            <div class="sale_offer_description">
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                    to demonstrate the visual form of a document or a typeface without relying on
+                    meaningful content</p>
+            </div>
+
+            <div class="sale_offer_button">
+                <button>Buy Now</button>
+            </div>
+
+        </article>
+
+        <article class="sale_offer_article">
+
+            <div class="sale_offer_heading">
+                <h1>~ Sale ~</h1>
+            </div>
+
+            <div class="sale_offer_image">
+                <img src="images/sale.png" alt="Sale offer on tickets">
+            </div>
+
+            <div class="sale_offer_description">
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                    to demonstrate the visual form of a document or a typeface without relying on
+                    meaningful content</p>
+            </div>
+
+            <div class="sale_offer_button">
+                <button>Buy Now</button>
+            </div>
+
+        </article>
+
+    </section>    <!-- End of first section-->
+
+
+    <!--    second row of the page-->
+
+    <section class="book_now_section">
+        <article class="book_now_article">
+
+            <h1>Book Now</h1>  <!-- A heading of the section -->
+
+            <div class="book_now_row">  <!-- Starting of a 2 unequal column section-->
+
+                <div class="book_now_column form_box">  <!-- One element can have multiple class name -->
+                    <form class="book_now_form">  <!-- A form for date picking -->
+                        <label for="from">From : </label>
+                        <input type="date" id="from" name="from">
+                    </form>
+
+                    <form class="book_now_form">
+                        <label for="to">To : </label>
+                        <input type="date" id="to" name="to">
+                    </form>
+                </div>
+
+                <div class="book_now_column book_now_img">
+                    <img src="images/book_now.png" alt="book now image" class="_img">
+                </div>
+
+            </div>
+
+            <button type="button">Book Now</button>
+
+        </article>
+
+    </section>   <!-- End of Second section-->
+
+
+    <!--    third section of the page
+    This sections design is identical to the first section. So used the same class names so that one set of style
+    can be used twice. Some changes in content has made.
+    -->
+
+    <section class="sale_offer_section">
+
+        <article class="sale_offer_article">
+
+            <div class="sale_offer_heading">
+                <h1>Restaurant</h1>
+            </div>
+
+            <div class="sale_offer_image">
+                <img src="images/restaurant.png" alt="Sale offer on tickets" style="background: white">
+            </div>
+
+            <div class="sale_offer_description">
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                    to demonstrate the visual form of a document or a typeface without relying on
+                    meaningful content</p>
+            </div>
+
+            <div class="sale_offer_button">
+                <button>Visit</button>
+            </div>
+        </article>
+
+        <article class="sale_offer_article">
+
+            <div class="sale_offer_heading">
+                <h1>Shop</h1>
+            </div>
+
+            <div class="sale_offer_image">
+                <img src="images/shop.png" alt="Sale offer on tickets" style="background: white">
+            </div>
+
+            <div class="sale_offer_description">
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                    to demonstrate the visual form of a document or a typeface without relying on
+                    meaningful content</p>
+            </div>
+
+            <div class="sale_offer_button">
+                <button>Visit</button>
+            </div>
+
+        </article>
+
+        <article class="sale_offer_article">
+
+            <div class="sale_offer_heading">
+                <h1>Hospital</h1>
+            </div>
+
+            <div class="sale_offer_image">
+                <img src="images/hospital.png" alt="Sale offer on tickets" style="background: white">
+            </div>
+
+            <div class="sale_offer_description">
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                    to demonstrate the visual form of a document or a typeface without relying on
+                    meaningful content</p>
+            </div>
+
+            <div class="sale_offer_button">
+                <button>Visit</button>
+            </div>
+
+        </article>
+
+    </section>   <!-- End of third section-->
+
+
+    <!--review with image background-->
+
+    <!-- Here an image slideshow is shown. And the whole thing is designed with CSS. so here's the creation of the block only. -->
+
+    <!-- Idea adapted from :: https://www.youtube.com/watch?v=fw3fOHnzCjI, I have implemented the image slideshow mostly
+    according to this video.-->
+    <section class="slider"></section>
+
+
+    <!-- NewsLetter section -->
+    <!-- Inspired by :: https://www.youtube.com/watch?v=5lcq3OMoKo0 -->
+
+    <section class="newsletter_wrapper">
+
+        <div class="newsletter_box">
+
+            <h1>Subscribe to our newsletter</h1>
+            <p>Loren ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+            <form>
+                <div>
+                    <input type="email" placeholder="email" required>
+                    <input type="submit" value="Join us">
+                </div>
+            </form>
+
+        </div>
+
+    </section>  <!-- End of the newsletter section.-->
+
+
+    
+</main>
 
 </body>
 </html>
