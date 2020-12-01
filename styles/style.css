@@ -79,6 +79,83 @@ body{
     font-family: Luminari fantasy;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5%;
+}
+
+/*Style for sale offer section*/
+
+.sale_offer_article{
+    float: left;
+    width: 29%;
+    margin: 2%;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: rgba(100, 149, 237, 0.5);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.6);
+}
+
+.sale_offer_heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Luminari fantasy;
+}
+
+.sale_offer_image{
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 50%;
+}
+
+.sale_offer_description{
+    font-size: 120%;
+    font-family: cursive;
+    text-align: center;
+}
+
+.sale_offer_button > button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    padding: 2%;
+    font-size: 28px;
+    font-family: cursive;
+    width: 50%;
+}
+
+.sale_offer_section:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Style of book now section*/
+
+.book_now_article{
+    border: 2px solid black;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5px;
+    background: rgba(100, 149, 237, 0.5);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.6);
+}
+
+.book_now_section  h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Luminari fantasy;
+}
+
 .book_now_column{
     float: left;
     height: 230px;
@@ -225,3 +302,4 @@ body{
 .newsletter_box input[type ="submit"]:hover{
     background: lightskyblue;
 }
+
