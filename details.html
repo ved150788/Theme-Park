@@ -14,63 +14,103 @@
 </head>
 
 <body>
-  <h2> Explore Frozenland </h2>
-  <div class = "frozenlandMap"> 
-    <img src="img/map.png" alt="Frozenland map" width="1024" id="frozenlandMap">
-  </div>
-    
-  <div class ="icon shop">
-    <a href="#shop">
-      <div> shop </div>
-      <img src="img/icons/shop.png" alt="Attraction - shop" width="60">
-    </a>
-  </div>
 
-  <div class ="icon restaurant">
-    <a href="#restaurant">
-      <div class="icondiv"> restaurant </div>
-      <img src="img/icons/restaurant.png" alt="Attraction - restaurant" width="60">
+  <nav>
+    <a id="logo" href="index.html">
+      <object
+        data="img/frozen_logo_3.jpg"
+        width="150"
+        height="70"
+      >
+      </object>
     </a>
-  </div>
+    <ol id="nav-links">
+      <li>
+        <a href="details.html">Explore</a>
+      </li>
+      <li>
+        <a href="supporting_features.html">Book Now</a>
+      </li>
+    </ol>
+    <ol id="search-links">
+      <li>
+        <input placeholder="Search"/>
+      </li>
+      <li>
+        <details>
+          <summary>Opening hours</summary>
+          <ul>
+            <li>Mon 9:30am - 6:00pm</li>
+            <li>Tue 9:30am - 6:00pm</li>
+            <li>Wed 9:30am - 6:00pm</li>
+            <li>Thu 9:30am - 6:00pm</li>
+            <li>Fri 9:30am - 6:00pm</li>
+            <li>Sat 8:00am - 10:00pm</li>
+            <li>Sun 8:00am - 10:00pm</li>
+          </ul>
+        </details>
+      </li>
+    </ol>
+  </nav>
+  
+  <div class="content">
+    <h2> Explore Frozenland </h2>
+    <div class = "frozenlandMap"> 
+      <img src="img/map.png" alt="Frozenland map" width="1024" id="frozenlandMap">
+    </div>
+      
+    <div class ="icon shop">
+      <a href="#shop">
+        <div> shop </div>
+        <img src="img/icons/shop.png" alt="Attraction - shop" width="60">
+      </a>
+    </div>
 
-  <div class ="icon castle"> 
-    <a href="#castle">
-      <div class="icondiv"> castle </div>
-      <img src="img/icons/castle.png" alt="Attraction - castle" width="60">
-    </a>
-  </div>
+    <div class ="icon restaurant">
+      <a href="#restaurant">
+        <div class="icondiv"> restaurant </div>
+        <img src="img/icons/restaurant.png" alt="Attraction - restaurant" width="60">
+      </a>
+    </div>
 
-  <div class ="icon rollercoaster"> 
-    <a href="#rollercoaster">
-      <div> train </div>
-      <img src="img/icons/train.png" alt="Attraction - rollercoaster" width="60">
-    </a>
-  </div>
+    <div class ="icon castle"> 
+      <a href="#castle">
+        <div class="icondiv"> castle </div>
+        <img src="img/icons/castle.png" alt="Attraction - castle" width="60">
+      </a>
+    </div>
 
-  <div class ="icon attraction1"> 
-    <a href="#carousel">
-      <div> carousel </div>
-      <img src="img/icons/attraction1.png" alt="Attraction - carousel" width="60">
-    </a>
-  </div>
+    <div class ="icon rollercoaster"> 
+      <a href="#rollercoaster">
+        <div> train </div>
+        <img src="img/icons/train.png" alt="Attraction - rollercoaster" width="60">
+      </a>
+    </div>
 
-  <div class = "icon ballon"> 
-    <a href="#ballon">
-      <div> ballon </div>
-      <img src="img/icons/ballon.png" alt="Attraction - ballon" width="60">
-    </a>
-  </div>
+    <div class ="icon attraction1"> 
+      <a href="#carousel">
+        <div> carousel </div>
+        <img src="img/icons/attraction1.png" alt="Attraction - carousel" width="60">
+      </a>
+    </div>
 
-  <div class = "icon info"> 
-    <a href="#info">
-      <div> info </div>
-      <img src="img/icons/info.png" alt="Attraction - info" width="60">
-    </a>
-  </div>
+    <div class = "icon ballon"> 
+      <a href="#ballon">
+        <div> ballon </div>
+        <img src="img/icons/ballon.png" alt="Attraction - ballon" width="60">
+      </a>
+    </div>
+
+    <div class = "icon info"> 
+      <a href="#info">
+        <div> info </div>
+        <img src="img/icons/info.png" alt="Attraction - info" width="60">
+      </a>
+    </div>
 
     <div class = posts>
       <div class = post>
-        
+
         <article>
           <h3>santa day</h3>
           <img src="img/santa.webp" alt="christmas event" width="500">
@@ -81,10 +121,13 @@
           <h3>christmas event</h3>
           <img src="img/xmas.jpg" alt="christmas event" width="500">
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </article>    
+        </article>   
+        
+        <article>
           <h3 id="info">info</h3>
           <img src="img/rollercoaster2.jpg" alt="info" width="500">
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </article>
 
         <article>
           <h3 id="shop">shop</h3>
@@ -120,8 +163,21 @@
           <h3 id ="ballon">ballons</h3>
           <img src="img/ballon.webp" alt="ballon" width="500">
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </article>    
+        </article> 
+
       </div>
     </div>
+  </div>
+
+  <footer>
+    <ul>
+      <li>contact us</li>
+      <li>policy</li>
+      <li>cookies policy</li>
+      <li>press</li>
+      <li>jobs</li>
+    </ul>
+  </footer>
+    
   </body>
 </html>

@@ -3,8 +3,11 @@ body {
 }
 
 .frozenlandMap {
-  position: relative;
   z-index: 1;
+}
+
+.content {
+  position: relative;
 }
 
 .icon{
