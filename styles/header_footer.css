@@ -9,6 +9,8 @@ header {
   top: 0px;
   width: 100%;
   z-index: 2;
+  font-family: 'Dancing Script', cursive;
+  color: #585858;
 }
 
 nav {
@@ -21,31 +23,37 @@ nav {
 }
 
 #logo {
-  left: 1rem;
-  display: flex;
-  padding: 5px;
-  align-items: center;
+  /*left: 1rem;*/
+  /*display: flex;*/
+  /*padding: 5px;*/
+  /*align-items: center;*/
 }
 
 #logo object {
-  border-radius: 20px;
+  /*border-radius: 20px;*/
+  /*opacity: 0.5;*/
+  width: 90px;
+  height: 90px;
 }
 
 #nav-links li {
   display: inline;
   padding: 5px;
-  border: 1px dotted grey;
+  /*border: 1px dotted grey;*/
   border-radius: 2px;
   max-width: 100px;
+  font-size: 30px;
+  margin: 0 40px;
 }
 
 #nav-links a {
   text-decoration: none;
-  color: #000000;
+  /*color: #000000;*/
+  color: #585858;
 }
 
 #nav-links a:hover {
-  border-bottom: 2px solid currentColor;
+  border-bottom: 4px solid #FFD700;
 }
 
 #search-links {
@@ -59,7 +67,21 @@ nav {
   top: 0px;
   display: block;
   padding: 5px;
-  border: 1px dotted grey;
+  /*border: 1px dotted grey;*/
+  border-radius: 5px;
+  /*color: #585858;*/
+}
+
+#search-links li > input {
+  border-radius: 10px;
+}
+
+details > summary {
+  cursor: pointer;
+}
+
+details > ul {
+  background-color: #FFF;
   border-radius: 5px;
 }
 
@@ -72,6 +94,7 @@ footer {
   display: flex;
   justify-content: center;
   background: linear-gradient(to bottom, #FFFFFF 0%, #6495ED 100%);
+  font-family: 'Dancing Script', cursive;
 }
 
 footer ul {
@@ -87,5 +110,5 @@ footer li {
 }
 
 footer li:hover {
-  border-bottom: 2px solid currentColor;
+  border-bottom: 2px solid #FFD700;
 }
