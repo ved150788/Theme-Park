@@ -1,0 +1,180 @@
+/*styles for details*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafb !important;
+}
+
+.icons {
+    display: inline-block;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.frozenland-map{
+    position: relative;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+.map {
+    background-color: #e5edfb;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 80px;
+    width:1430px;
+}
+
+.map img {
+    margin-top: 40px;
+}
+
+.posts{
+    width: 1550px;
+}
+
+.map-title {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 10px;
+    margin: 0;
+    text-align: center;
+    color: #011e44;
+    text-transform: uppercase;
+}
+
+.post{
+    background-color:#e5edfb;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20px;
+    padding: 80px 30px;
+    margin: 90px 0;
+    width: 1500px;
+}
+
+.post img {
+    width: 700px;
+    padding: 40px;
+}
+
+.post p {
+    text-align: justify;
+    font-size: 23px;
+    font-family: 'Archivo', sans-serif;
+    line-height: 150%;
+}
+
+.post h3 {
+    text-align: justify;
+    font-size: 30px;
+}
+
+.post-text {
+    display: inline-block;
+    width: 600px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.post-text h3 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.icon-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.iconDescription {
+    padding: 5px 0; 
+    text-transform: uppercase;
+    color:  #011e44;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon-link {
+    text-decoration: none !important;
+}
+
+.icon{
+    display: inline-block;
+    position: absolute;
+    max-width: 110px;
+    background-color: #e5edfb;
+    padding: 10px;
+    border-radius: 20px;
+    -moz-box-shadow: 0px 0px 8px#7fdde050;
+    -webkit-box-shadow: 0px 0px 8px #7fdde08a;
+    box-shadow: 0px 0px 8px  8px rgba(127, 221, 224, 0.479);
+
+}
+
+.icon:hover {
+    -moz-box-shadow: 0px 0px 8px#7fdde050;
+    -webkit-box-shadow: 0px 0px 8px #7fdde08a;
+    box-shadow: 0px 0px 16px  16px #7fc9e0d8;
+}
+
+.castle {
+    left: 820px;
+    top: 650px;
+    z-index: 2;
+}
+  
+.rollercoaster {
+    left: 1130px;
+    top: 830px;
+    z-index: 2;
+}
+
+.shop {
+    left: 390px;
+    top: 580px;
+    z-index: 2;
+}
+
+.attraction1 {
+    left: 690px;
+    top: 1030px;
+    z-index: 2;
+}
+
+.ballon {
+    left: 640px;
+    top: 330px;
+    z-index: 2;
+}
+
+
+.restaurant {
+    left: 1100px;
+    top: 570px;
+    z-index: 2;
+    }
+
+.info {
+    left: 350px;
+    top: 790px;
+    z-index: 2;
+}
+
