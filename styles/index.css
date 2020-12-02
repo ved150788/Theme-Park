@@ -165,3 +165,30 @@ main {
   box-shadow: 0 5px 15px 0 rgba(0,0,0,.6);
   font-size: 80%;
 }
+
+#scroll-down-icon {
+  animation: bounce 2s infinite;
+  position: absolute;
+  top: 90vh;
+  color: #FFF;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#scroll-down-icon > i {
+  font-size: 40px;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0%  {
+    transform: translateY(0);
+  }
+  50%  {
+    transform: translateY(-10vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
