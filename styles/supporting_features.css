@@ -5,105 +5,11 @@ body{
 }
 
 
-/*Header styles here*/
-
-header {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  z-index: 2;
-}
-
-nav {
-  background: linear-gradient(to bottom, #6495ED 0%, #FFFFFF 100%);
-  height: 80px; /* Use this to fix the height so that expansion of the opening times details section remains at height 80px */
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  padding: 0 25px;
-}
-
-#logo {
-  left: 1rem;
-  display: flex;
-  padding: 5px;
-  align-items: center;
-}
-
-#logo object {
-  border-radius: 20px;
-}
-
-#nav-links li {
-  display: inline;
-  padding: 5px;
-  border: 1px dotted grey;
-  border-radius: 2px;
-  max-width: 100px;
-}
-
-#nav-links a {
-  text-decoration: none;
-  color: #000000;
-}
-
-#nav-links a:hover {
-  border-bottom: 2px solid currentColor;
-}
-
-#search-links {
-  margin-block-start: 8px; /* 0.5em */
-  margin-block-end: 8px; /* 0.5em */
-  width: 200px;
-  font-size: 14px;
-}
-
-#search-links li {
-  top: 0px;
-  display: block;
-  padding: 5px;
-  border: 1px dotted grey;
-  border-radius: 5px;
-}
-
-
 /*Main content style here*/
 
 main{
     margin: 5%;
 }
-
-
-/*Footer styles here*/
-
-footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  height: 7%;
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(to bottom, #FFFFFF 0%, #6495ED 100%);
-}
-
-footer ul {
-  display: flex;
-  justify-content: space-between;
-  width: 60%;
-  height: 30%;
-}
-
-footer li {
-  display: inline;
-  cursor: pointer;
-}
-
-footer li:hover {
-  border-bottom: 2px solid currentColor;
-}
-
-
-
 
 /*Style for sale offer section*/
 
@@ -226,7 +132,7 @@ footer li:hover {
 .slider{
     width: 1150px;
     height: 400px;
-    background: url("../images/1st_review.png");
+    background: url("../img/1st_review.png");
     margin: 5% auto;
     animation: slide 20s linear infinite;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.6);
@@ -234,16 +140,16 @@ footer li:hover {
 
 @keyframes slide {
     25%{
-        background: url("../images/1st_review.png");
+        background: url("../img/1st_review.png");
     }
     50%{
-        background: url("../images/2nd_review.png");
+        background: url("../img/2nd_review.png");
     }
     75%{
-        background: url("../images/3rd_review.png");
+        background: url("../img/3rd_review.png");
     }
     100%{
-        background: url("../images/4th_review.png");
+        background: url("../img/4th_review.png");
     }
 }
 
@@ -252,7 +158,7 @@ footer li:hover {
 /*the full section of newsletter*/
 .newsletter_wrapper {
     /*adding background image and positioning it*/
-    background: url("../images/bg.jpg") center center;
+    background: url("../img/bg.jpg") center center;
     background-size: cover;
     /*1 vh = 1% of the viewport.*/
     height: 30vh;
