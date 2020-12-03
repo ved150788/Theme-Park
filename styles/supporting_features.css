@@ -134,19 +134,28 @@ main{
     height: 400px;
     background: url("../img/1st_review.png");
     margin: 5% auto;
-    animation: slide 20s linear infinite;
+    animation: slide 30s linear infinite;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.6);
 }
 
 @keyframes slide {
-    25%{
+    15%{
         background: url("../img/1st_review.png");
     }
-    50%{
+    30%{
+        background: url("../img/2nd_bg.jpg");
+    }
+    45%{
         background: url("../img/2nd_review.png");
+    }
+    60%{
+        background: url("../img/3rd_bg.jpeg");
     }
     75%{
         background: url("../img/3rd_review.png");
+    }
+    85%{
+        background: url("../img/4th_bg.jpeg");
     }
     100%{
         background: url("../img/4th_review.png");
@@ -158,7 +167,7 @@ main{
 /*the full section of newsletter*/
 .newsletter_wrapper {
     /*adding background image and positioning it*/
-    background: url("../img/bg.jpg") center center;
+    background: url("../img/2nd_bg.jpg") center center;
     background-size: cover;
     /*1 vh = 1% of the viewport.*/
     height: 30vh;
@@ -174,7 +183,7 @@ main{
 /*the newsletter box*/
 .newsletter_box{
     padding: 20px 6px;
-    color: #fff;
+    color: #000;
 }
 
 /*newsletter box's heading*/
