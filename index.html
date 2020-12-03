@@ -11,20 +11,20 @@
   <meta name="refresh" content="600">
   <meta name="keywords" content="Frozen Land theme park">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/header_footer.css">
   <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <!-- For icons -->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body>
+  <!-- The header section is a navigation bar. -->
   <header>
     <nav>
       <a id="logo" href="index.html">
-        <object
-          data="img/frozen_logo_3.jpg"
-          width="150"
-          height="70"
-        >
-        </object>
+        <object data="img/frozen_logo.png"></object>
       </a>
+      <!-- An ordered list is used for the navigation links. -->
       <ol id="nav-links">
         <li>
           <a href="details.html">Explore</a>
@@ -33,6 +33,7 @@
           <a href="supporting_features.html">Book Now</a>
         </li>
       </ol>
+      <!-- An ordered list is used for the right side features in the navigation bar: search and opening hours details. -->
       <ol id="search-links">
         <li>
           <input placeholder="Search"/>
@@ -56,6 +57,7 @@
   </header>
 
   <main>
+    <!-- The slideshow section is a rotating carousel with five image objects. -->
     <section class="slideshow">
       <div class="slides">
         <object
@@ -84,8 +86,13 @@
         >
         </object>
       </div>
+      <div id="scroll-down-icon">
+        <div>Scroll down</div>
+        <i class="fas fa-chevron-down"></i>
+      </div>
     </section>
 
+    <!-- The below section is for information presented within an HTML article. -->
     <section>
       <article class="park-info-container">
         <div class="main-article-title">
@@ -108,6 +115,7 @@
       </article>
     </section>
 
+    <!-- Articles are included for supporting information. -->
     <section class="supporting-info-section">
       <article class="supporting-info-article">
         <div class="supporting-article-title">
