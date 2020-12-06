@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <!-- The header section is a navigation bar. -->
+  <!-- The header element is a navigation bar. -->
   <header>
     <nav>
       <a id="logo" href="index.html">
@@ -63,7 +63,7 @@
         <object
           id="slide-1"
           data="img/frozen_concept.jpg"
-        />
+        >
         </object>
         <object
           id="slide-2"
@@ -87,42 +87,48 @@
         </object>
       </div>
       <div id="scroll-down-icon">
-        <div>Scroll down</div>
+        <h5>Scroll down</h5>
         <i class="fas fa-chevron-down"></i>
       </div>
     </section>
 
-    <!-- The below section is for information presented within an HTML article. -->
-    <section>
-      <article class="park-info-container">
-        <div class="main-article-title">
-          ~ Frozenland ~
-        </div>
-        <div class="main-article-image">
-          <img id="main-image" src="img/frozen_ice.jpeg"/>
-        </div>
-        <div class="main-article-text">
-          <p>
-            Welcome to Frozenland where you will be whisked away to a place of enchantment and magic!
-          </p>
-          <p>
-            Enlist with the delightful Anna to help save her sister. Join the handsome Hans. Get up to mischief with Olaf as he hops around town with his naughtiness. Hitch a ride with the loyal reindeer, Sven.
-          </p>
-          <p>
-            Be careful not to get in the way of Elsa's spells or be forever frozen in the icy kingdom!
-          </p>
-        </div>
-      </article>
-    </section>
+    <!-- The below article is for information presented within an HTML article. -->
+    <article class="park-info-container">
+      <h2 class="main-article-title">
+        ~ Frozenland ~
+      </h2>
+      <div class="main-article-image">
+        <img
+          id="main-image"
+          src="img/frozen_ice.jpeg"
+          alt="Image of Frozen character Elsa for the main article"
+        />
+      </div>
+      <div class="main-article-text">
+        <p>
+          Welcome to Frozenland where you will be whisked away to a place of enchantment and magic!
+        </p>
+        <p>
+          Enlist with the delightful Anna to help save her sister. Join the handsome Hans. Get up to mischief with Olaf as he hops around town with his naughtiness. Hitch a ride with the loyal reindeer, Sven.
+        </p>
+        <p>
+          Be careful not to get in the way of Elsa's spells or be forever frozen in the icy kingdom!
+        </p>
+      </div>
+    </article>
 
     <!-- Articles are included for supporting information. -->
-    <section class="supporting-info-section">
+    <div class="supporting-info-section">
       <article class="supporting-info-article">
-        <div class="supporting-article-title">
+        <h2 class="supporting-article-title">
           ~ Ticket sale offer ~
-        </div>
+        </h2>
         <div class="supporting-article-image">
-          <img class="supporting-image" src="img/tickets_for_sale.jpg"/>
+          <img
+            class="supporting-image"
+            src="img/tickets_for_sale.jpg"
+            alt="Cartoon ticket booth for the supporting article"
+          />
         </div>
         <div class="supporting-article-text">
           <p>
@@ -134,17 +140,23 @@
           <p>
             Kids under 8 enter free.
           </p>
-          <a href="supporting_features.html">
-            <button class="info-button">Find out more</button>
-          </a>
+          <form action="supporting_features.html">
+            <button class="info-button">
+              Find out more
+            </button>
+          </form>
         </div>
       </article>
       <article class="supporting-info-article">
-        <div class="supporting-article-title">
+        <h2 class="supporting-article-title">
           ~ Rides ~
-        </div>
+        </h2>
         <div class="supporting-article-image">
-          <img class="supporting-image" src="img/rides.jpg"/>
+          <img
+            class="supporting-image"
+            src="img/rides.jpg"
+            alt="Rollercoaster artwork"
+          />
         </div>
         <div class="supporting-article-text">
           <p>
@@ -153,17 +165,23 @@
           <p>
             For the younger visitors, you will have great fun on the carousel swings and iceberg carts. Just don't forget to wrap up warm.
           </p>
-          <a href="details.html">
-            <button class="info-button">Find out more</button>
-          </a>
+          <form action="details.html">
+            <button class="info-button">
+              Find out more
+            </button>
+          </form>
         </div>
       </article>
       <article class="supporting-info-article">
-        <div class="supporting-article-title">
+        <h2 class="supporting-article-title">
           ~ Events ~
-        </div>
+        </h2>
         <div class="supporting-article-image">
-          <img class="supporting-image" src="img/frozen_castle.jpg"/>
+          <img
+            class="supporting-image"
+            src="img/frozen_castle.jpg"
+            alt="Frozen parade"
+          />
         </div>
         <div class="supporting-article-text">
           <p>
@@ -172,12 +190,14 @@
           <p>
             See the special plays never seen before in one of our secret exhibition spots hidden in the frozen kingdom.
           </p>
-          <a href="details.html">
-            <button class="info-button">Find out more</button>
-          </a>
+          <form action="details.html">
+            <button class="info-button">
+              Find out more
+            </button>
+          </form>
         </div>
       </article>
-    </section>
+    </div>
   </main>
 
   <footer>

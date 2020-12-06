@@ -59,10 +59,9 @@ main {
 
 .main-article-title {
   grid-area: main-article-title;
-  justify-content: center;
   font-size: 300%;
   font-family: Luminari, fantasy;
-  /*font-family: 'Dancing Script', cursive;*/ /* Please leave this for now. */
+  margin: 0;
 }
 
 .main-article-image {
@@ -105,6 +104,7 @@ main {
   grid-area: supporting-article-title;
   font-family: Luminari, fantasy;
   font-size: 150%;
+  margin: 0;
 }
 
 .supporting-article-image {
@@ -174,6 +174,10 @@ main {
   font-size: 20px;
   width: 100%;
   text-align: center;
+}
+
+#scroll-down-icon > h5 {
+  margin: 0;
 }
 
 #scroll-down-icon > i {
